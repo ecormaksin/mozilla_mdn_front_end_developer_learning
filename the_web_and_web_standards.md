@@ -73,3 +73,16 @@
 ## Being a web developer is good / web開発者になることは良いことだ
 
 _変わらない唯一のことは、変化すること。_
+学び続けることが必要。
+
+## Overview of modern web technologies / 現代のweb技術をざっくりと見ていく
+
+### Browsers / ブラウザー
+
+webを使うために人々が使うソフトウェア プログラム。  
+Firefox, Chrome, Opera, Safari, Edge など。
+
+### HTTP
+
+Hypertext Transfer Protocol (ハイパーテキスト トランスファー プロトコル)  
+webブラウザーがwebサーバーと通信するための手順
