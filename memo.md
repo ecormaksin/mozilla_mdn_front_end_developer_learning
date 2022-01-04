@@ -3,14 +3,17 @@
 ## 要素
 
 ```text
-<p>My cat is very grumpy</p>
-|  |                    |
-|  |                    Cloging tag / 終了タグ
-|  Content / 内容
+<p class="editor-note">My cat is very grumpy</p>
+|  |                   |                    |
+|  |                   |                    Cloging tag / 終了タグ
+|  |                   Content / 内容
+|  Attributes / 属性
 Opening tag / 開始タグ
 
 ※上記全体: Element / 要素
 ```
+
+- 開始・終了のない単一のタグで構成される要素もある。（empty elements / void elements / 空の要素 ← 上記の構造に当てはめると、「内容」がないことから、そのように読んでいる？）
 
 ### 全般
 
@@ -40,3 +43,30 @@ Opening tag / 開始タグ
 - 段落: `<p></p>`
 - イタリック体: `<em></em>`
 - 強調: `<strong></strong>`
+- リンク・アンカー（anchor）: `<a></a>`
+  - `href`: リンク先のwebアドレス
+    - 例: `href="https://www.mozilla.org/"`
+  - `title`: リンク先ページの説明。カーソルを当てた時にツールチップとして表示される。
+    - 例: `title="The Mozila homepage"`
+  - `target`: リンクを表示するための閲覧状態を指定する。省略すると、現在のタブからリンク先ページへ遷移する。
+    - 例: `target="_blank"` 新しいタブにリンク先のページを表示する。
+
+## 属性
+
+- 要素の名前との間にスペースが必要
+- 属性を複数指定する場合は、それぞれの間をスペースで区切る
+- 属性名の後は`=`
+- 属性値は引用句で囲む
+
+### 真偽属性 / Boolean attributes
+
+- 値のない属性。
+- ほとんどが名前と同じ値を持つ。
+- 例
+  - `disabled`  
+    下の2つは同じ結果になる。  
+
+    ```html
+    <input type="text" disabled="disabled">
+    <input type="text" disabled>
+    ```
