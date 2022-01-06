@@ -56,7 +56,33 @@ Opening tag / 開始タグ
 - 要素の名前との間にスペースが必要
 - 属性を複数指定する場合は、それぞれの間をスペースで区切る
 - 属性名の後は`=`
-- 属性値は引用句で囲む
+- 属性値は引用符で囲む。
+  - 省略することもできるが、問題が発生しやすいので、非推奨。
+    - 例
+
+      ```html
+      <a href=https://www.mozilla.org/>fate website</a> <!-- OK -->
+
+      <a href=https://www.mozilla.org/ title=The Mozilla homepage>favorite website</a>
+      <!--                                   |   |       | -->
+      <!--                                   |   |       真偽値と判断される -->
+      <!--                                   |   真偽値と判断される -->
+      <!--                                   Theだけがtitleの属性値と判断される -->
+      ```
+
+  - `'`と`"`のどちらを使うか。
+    - スタイルの問題
+    - 1つの属性値の開始と終了は同じ種類でなければならない。
+    - 属性値の中に、属性値を囲んでいる引用符と同じ種類の引用符を設定することはできない。
+      - 例
+
+        ```html
+        <a href="https://www.example.com" title="Isn't this fun?">A link to my example.</a><!-- OK -->
+
+        <a href='https://www.example.com' title='Isn't this fun?'>A link to my example.</a><!-- NG -->
+
+        <a href='https://www.example.com' title='Isn&apos;t this fun?'>A link to my example.</a><!-- OK -->
+        ```
 
 ### 真偽属性 / Boolean attributes
 
