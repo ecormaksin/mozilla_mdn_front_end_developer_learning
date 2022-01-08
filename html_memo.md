@@ -42,7 +42,7 @@ Opening tag / 開始タグ
 
 - 段落: `<p></p>`
 - イタリック体: `<em></em>`
-- 強調: `<strong></strong>`
+- 強調: `<strong></strong>` `<em></em>`
 - リンク・アンカー（anchor）: `<a></a>`
   - `href`: リンク先のwebアドレス
     - 例: `href="https://www.mozilla.org/"`
@@ -50,6 +50,8 @@ Opening tag / 開始タグ
     - 例: `title="The Mozila homepage"`
   - `target`: リンクを表示するための閲覧状態を指定する。省略すると、現在のタブからリンク先ページへ遷移する。
     - 例: `target="_blank"` 新しいタブにリンク先のページを表示する。
+- 画像: `<img src="<画像のパス>">`
+- ドキュメントの表題: `<h1></h1>`
 
 ## 属性
 
@@ -96,3 +98,40 @@ Opening tag / 開始タグ
     <input type="text" disabled="disabled">
     <input type="text" disabled>
     ```
+
+## HTMLドキュメントの構造
+
+- `<!DOCTYPE html>`: doctype / ドキュメントの種類。
+  - HTML(1991-1992)が未成熟だった時、doctypeはルールへのリンク機能を持つよう設計されていた。
+    - ルール: 対象のwebページが良いHTMLと判定されるために従うべきルール
+    - 例
+
+      ```html
+      <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+      ```
+
+  - より最近では、doctypeは歴史的産物になり、正しく機能するために含める必要のあるだけの要素になった。
+- `<html></html>`: ルート要素。ページ内の要素すべてを包含する。
+- `<head></head>`: ヘッダー要素。ページ閲覧者には見せない内容を含めるためのコンテナーとして機能する。
+  - head要素に含めるものの例
+    - web検索時に表示されるキーワードやページの説明
+    - CSS
+    - 文字セットの定義など
+- `<meta charset="utf-8">`: ページの文字セット。必ず設定する。
+- `<title></title>`: ページのタイトル。ブラウザーのタブに表示される。ブックマークした時にも使われる。
+- `<body></body>`: ページに表示するすべての内容（文字、画像、映像、ゲーム、再生可能な音声トラック、など）を含む。
+- 空白は何個入力しても、単一のスペースとして描画される。
+
+## 実体参照: HTML内の特殊文字
+
+| 表示される文字 | HTML上の記述 |
+| --- | --- |
+| < | \&lt; |
+| > | \&gt; |
+| " | \&quot; |
+| ' | \&apos; |
+| & | \&amp; |
+
+上記以外にも実体参照はあるが、文字エンコーディングをUTF-8に設定している限り、他の記号はそのまま描画される。
+
+[すべてのリスト](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references)
