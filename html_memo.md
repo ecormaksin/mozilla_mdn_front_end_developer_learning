@@ -114,9 +114,13 @@ Opening tag / 開始タグ
 - `<html></html>`: ルート要素。ページ内の要素すべてを包含する。
 - `<head></head>`: ヘッダー要素。ページ閲覧者には見せない内容を含めるためのコンテナーとして機能する。
   - head要素に含めるものの例
-    - web検索時に表示されるキーワードやページの説明
-    - CSS
-    - 文字セットの定義など
+    - `<title>`要素
+    - CSSへのリンク
+    - カスタムfaviconへのリンク
+    - その他のメタデータ: `<meta>`要素。データを説明するデータ
+      - ページの著者
+      - web検索時に表示されるキーワードやページの説明
+      - 文字セットの定義など
 - `<meta charset="utf-8">`: ページの文字セット。必ず設定する。
 - `<title></title>`: ページのタイトル。ブラウザーのタブに表示される。ブックマークした時にも使われる。
 - `<body></body>`: ページに表示するすべての内容（文字、画像、映像、ゲーム、再生可能な音声トラック、など）を含む。
@@ -135,3 +139,27 @@ Opening tag / 開始タグ
 上記以外にも実体参照はあるが、文字エンコーディングをUTF-8に設定している限り、他の記号はそのまま描画される。
 
 [すべてのリスト](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references)
+
+
+## ヘッダー（`<head>`要素）
+
+### `<meta>`要素
+
+- 多くの機能はすでに使われていない。
+  - `<meta name="keywords" content="~">`は、検索エンジンで別の単語で検索された時に、関連する単語で検索に該当させる目的で設計されていたが、スパム発信者がとにかく検索にヒットするように関係のない単語まで大量に設定する手法を採るので、検索エンジンでは無視されるようになった。
+
+#### `<meta>`要素の属性
+
+- `name`: メタ要素の種類を表す。
+- `content`: メタ要素の実際の内容。
+
+- ページの著者やページの説明を定義するのに役立つ。
+  - 例
+
+  ```html
+  <meta name="author" content="Chris Mills">
+  <meta name="description" content="The MDN Web Docs Learning Area aims to provide complete beginners to the Web with all they need to know to get started with developing web sites and applications.">
+  ```
+
+  - ページの作者を設定しておくと、誰がそのページを作ったのかが分かり、質問がある場合に問い合わせることができる。
+  - ページの内容に関連するキーワードを含んだ説明を設定しておくと、検索エンジンで関連するページにより該当する可能性が高くなる。（[Search Engine Optimization / SEO / 検索エンジン最適化](https://developer.mozilla.org/en-US/docs/Glossary/SEO)）
