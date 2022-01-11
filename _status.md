@@ -24,3 +24,4 @@
 | [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML#guides) |  |
 | Guides |  |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Getting started with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started) | 2022/01/08 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[What's in the head? Metadata in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML) | 2022/01/11 |
