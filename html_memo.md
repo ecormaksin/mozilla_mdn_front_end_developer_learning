@@ -62,6 +62,7 @@ Opening tag / 開始タグ
   - `target`: リンクを表示するための閲覧状態を指定する。省略すると、現在のタブからリンク先ページへ遷移する。
     - 例: `target="_blank"` 新しいタブにリンク先のページを表示する。
 - 画像: `<img src="<画像のパス>">`
+- `<span></span>`
 
 ## 属性
 
@@ -275,3 +276,42 @@ Opening tag / 開始タグ
     ```
   - 言語のコードは[ISO 639-1](https://en.wikipedia.org/wiki/ISO_639-1)標準で定義されている。
   -詳細は[Language tags in HTML and XML](https://www.w3.org/International/articles/language-tags/)を参照。
+
+## リスト
+
+- 順不同リスト
+
+  ```html
+  <ul>
+    <li>リスト項目1</li>
+    <li>リスト項目2</li>
+    <li>リスト項目3</li>
+    <li>...</li>
+  </ul>
+  ```
+
+- 順序付きリスト
+
+  ```html
+  <ol>
+    <li>リスト項目1</li>
+    <li>リスト項目2</li>
+    <li>リスト項目3</li>
+    <li>...</li>
+  </ol>
+  ```
+
+- リストの入れ子が可能
+
+  ```html
+  <ol>
+    <li>順不同リスト項目1</li>
+    <li>順不同リスト項目2</li>
+    <li>順不同リスト項目3
+      <ul>
+        <li>サブ順序付きリスト項目1</li>
+        <li>サブ順序付きリスト項目2</li>
+      </ul>
+    </li>
+  </ol>
+  ```
