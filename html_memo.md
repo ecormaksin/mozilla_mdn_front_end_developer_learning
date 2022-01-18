@@ -52,8 +52,24 @@ Opening tag / 開始タグ
   - `<h4></h4>`
   - `<h5></h5>`
   - `<h6></h6>`
-- イタリック体: `<em></em>`
-- 強調: `<strong></strong>` `<em></em>`
+- 強調(イタリック体、斜体): `<em></em>`
+  - 単純にイタリック体にしたい時は、`<span></span>`とCSSを組み合わせるか、`<i></i>`を使う。
+- 重要な語句の強調(ボールド体、太字): `<strong></strong>`
+  - 単純にボールド体にしたい時は、`<span></span>`とCSSを組み合わせるか、`<b></b>`を使う。
+- `<strong></strong>`と`<em></em>`は入れ子にできる。
+- `<u></u>`: 下線付き。
+- 表示にのみ影響を与え、意味には影響がない要素は **presentational elements / 表示用要素** として知られている。
+- HTML5では、意味を示す役割として再定義された。
+  - `<i>`: 外国語、分類上の名前 (taxonomic designation)、技術的な用語、思考
+  - `<b>`: キー ワード、プロダクト名、リード文
+  - `<u>`: 固有名詞 (proper name)、綴り誤り
+    - 下線は、ハイパーリンクと認識される可能性がとても高い。そのため、web上ではハイパーリンクのみに下線をつけるのが最善。意味的に適切なら`<u>`を使えばよいが、CSSで見た目を変えた方が良い。
+      - 例
+
+        ```html
+        <u style="text-decoration-line: underline; text-decoration-style: wavy;">spel</u>
+        ```
+
 - リンク・アンカー（anchor）: `<a></a>`
   - `href`: リンク先のwebアドレス
     - 例: `href="https://www.mozilla.org/"`
@@ -277,7 +293,7 @@ Opening tag / 開始タグ
   - 言語のコードは[ISO 639-1](https://en.wikipedia.org/wiki/ISO_639-1)標準で定義されている。
   -詳細は[Language tags in HTML and XML](https://www.w3.org/International/articles/language-tags/)を参照。
 
-## リスト
+### リスト
 
 - 順不同リスト
 
