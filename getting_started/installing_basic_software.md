@@ -1,4 +1,4 @@
-# Installing basic software 基本的なソフトウェアをインストールする
+# Installing basic software / 基本的なソフトウェアをインストールする
 
 ## まとめ
 
@@ -7,7 +7,7 @@
 
 ---
 
-## What tools do the professionals use? プロはどんなツールを使ってるの？
+## What tools do the professionals use? / プロはどんなツールを使ってるの？
 
 - **コンピューター** 当たり前と思う人もいるけど、このWebページをスマホや図書館にあるパソコンで読んでいる人がいるかもしれないよ。マジメにWeb開発しようと思ったら、Windows・macOS・Linuxが動くデスクトップかノート パソコンを買った方がいいよ。
 - **テキスト エディター** これを使ってコードを書くよ。テキスト エディターとか、ハイブリッド エディターがあるよ。
@@ -21,7 +21,7 @@
   - ハイブリッド エディター
     - [Dreamweaver](https://www.adobe.com/products/dreamweaver.html)
     - [WebStorm](https://www.jetbrains.com/webstorm/)
-- **グラフィック エディター** あなたのWebページのためのイメージやグラフィックを作るよ。
+- **グラフィック エディター** Webページに載せるイメージやグラフィックを作るよ。
   - 例
     - [GIMP](https://www.gimp.org/)
     - [Figma](https://www.figma.com/)
@@ -48,9 +48,9 @@
     - コードや資産を共有する。
     - 複数の人が同じファイルを編集した時の衝突を防ぐ。
 - **FTPプログラム** 古いWebホスティング サービスで、ファイルをサーバー管理するために使われていたよ。（[Git](https://git-scm.com/)がFTPの役割を取って代わってきているよ。）下に挙げるソフトウェアも含めて、たくさんの(S)FTPプログラムがあるよ。
-    - [Cyberduck](https://cyberduck.io/)
-    - [Fetch](https://fetchsoftworks.com/)
-    - [FileZilla](https://filezilla-project.org/)
+  - [Cyberduck](https://cyberduck.io/)
+  - [Fetch](https://fetchsoftworks.com/)
+  - [FileZilla](https://filezilla-project.org/)
 - **自動化システム** コードのコンパクト化やテスト実行のような繰り返し行うタスクを、自動的に実行してくれるよ。
   - 代表的なソフトウェア
     - [Webpack](https://webpack.js.org/)
@@ -65,18 +65,18 @@
 
 ---
 
-## What tools do I actually need, right now? 実際のところ、今すぐ必要なツールは何？
+## What tools do I actually need, right now? / 実際のところ、今すぐ必要なツールは何？
 
 上のリストを見て ((((；ﾟДﾟ))))ｶﾞｸｶﾞｸﾌﾞﾙﾌﾞﾙ になるかもしれないけど、ほとんどのものは知らなくてもWeb開発できるよ。ε-(´∀｀*)ﾎｯ
 この記事では、必要最低限のツール（テキスト エディター）と、いくつかのモダンなWebブラウザーをインストールしてもらうよ。
 
-### Installing a text editor テキスト エディターのインストール
+### Installing a text editor / テキスト エディターのインストール
 
 あなたのコンピューターにはたぶん、基本的なテキスト エディターがもう入ってるよ。デフォルトなら、Windowsなら[メモ帳](https://en.wikipedia.org/wiki/Microsoft_Notepad)、macOSなら[テキスト エディット](https://en.wikipedia.org/wiki/TextEdit)、Linuxはディストリビューションによって色々だけど、Ubuntuなら[gedit](https://en.wikipedia.org/wiki/Gedit)が入ってるよ。
 
 Web開発するなら、メモ帳やテキスト エディット以外のテキスト エディターを使った方がいいよ。私達は[Visual Studio Code](https://code.visualstudio.com/)をオススメするよ。無料だし、ライブ プレビューやコード ヒントの機能があるよ。
 
-### Installing modern web browsers モダンなWebブラウザーのインストール
+### Installing modern web browsers / モダンなWebブラウザーのインストール
 
 さしあたって、コードを確認するために、いくつかのデスクトップWebブラウザーをインストールするよ。下の中からあなたのOSを選んで、好きなブラウザーのインストーラーをダウンロードするためのリンクをクリックしてね。
 
