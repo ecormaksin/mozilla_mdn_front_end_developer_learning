@@ -97,3 +97,55 @@
       ```
 
   - **備考**: セキュリティ向上のために、サイトでContent Security Policy (CSP)を使う場合、アイコンにもポリシーが適用される。もしfaviconが読み込まれない問題が発生する場合、[Content-Security-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy)ヘッダーの[`img-src`ディレクティブ](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/img-src)がfaviconへのアクセスを妨げていないか確認する。
+
+### Applying CSS and JavaScript to HTML / HTMLへのCSSとJavaScriptの適用
+
+- CSS: `<link>`, JavaScript: `<script>`
+
+- CSS
+
+  ```html
+  <head>
+    <!-- 前後省略 -->
+    <link rel="stylesheet" href="my-css-file.css">
+    <!-- 前後省略 -->
+  </head>
+  ```
+
+- JavaScript
+
+  ```html
+  <head>
+    <!-- 前後省略 -->
+    <script src="my-js-file.js" defer></script>
+    <!--                        | -->
+    <!--                        HTMLの解析後にJavaScriptを読み込むための指示 -->
+    <!-- 前後省略 -->
+  </head>
+  ```
+
+  - `defer`キーワードを指定することで、JavaScriptがまだ描画されていない要素へアクセスしようとしてエラーが発生することを防止できる。JavaScriptの読み込みを制御する方法はたくさんあるが、`defer`を指定する方法が一番簡単。（他の方法は、[Script loading strategies](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#script_loading_strategies)を参照。）
+  - `<script></script>`タグの中にスクリプトを記述することもできる。
+
+### Setting the primary language of the document / ドキュメントの第1言語の設定
+
+```html
+<html lang="en-US">
+```
+
+- 設定することで、検索エンジンによって、より効果的にインデックスが生成される。
+  - 例
+    - 言語を指定した時の検索結果に、正しく表示される。  
+- スクリーン リーダーを使っている視覚障害者の助けになる。
+  - 例
+    - "six"はフランス語にも英語にもある単語だが、発音は違う。</br></br>
+
+- ページ内のセクションに別の言語を指定することもできる。
+  - 例
+
+    ```html
+    <p>Japanese example: <span lang="ja">ご飯が熱い。</span>.</p>
+    ```
+
+- 言語のコードは[ISO 639-1](https://en.wikipedia.org/wiki/ISO_639-1)標準で定義されている。
+  - 詳細は[Language tags in HTML and XML](https://www.w3.org/International/articles/language-tags/)を参照。
