@@ -4,7 +4,7 @@
 
 - `<a>`要素と`href`属性（ **ハイパーテキスト参照(Hypertext Reference)** または **ターゲット(target)** として知られている）を使う。
   - 例
-  
+
     ```html
     <p>I'm creating a link to
     <a href="https://www.mozilla.org/en-US/">the Mozilla homepage</a>.
@@ -17,14 +17,14 @@
   - リンクに関する追加の情報を含む。
     - ページがどのような種類の情報を含んでいるか。
   - ポインターを当てた時にツールチップのようにタイトルが表示される。
-    - キーボードやタッチパネルで操作する場合は表示されない。  
+    - キーボードやタッチパネルで操作する場合は表示されない。
       そのため、重要な情報の場合は通常のテキストに配置したりして、すべてのユーザーがアクセス可能な状態にする必要がある。
   - 例
-  
+
     ```html
     <p>I'm creating a link to
     <a href="https://www.mozilla.org/en-US/"
-      title="The best place to find more information about Mozilla's 
+      title="The best place to find more information about Mozilla's
       mission and how to contribute">the Mozilla homepage</a>.
     </p>
     ```
@@ -59,7 +59,7 @@
     |
     `-- projects
         `-- index.html
-    
+
     ```
 
   - 同じディレクトリー: ファイル名のみで参照可能。
@@ -92,7 +92,7 @@
     ```html
     <h2 id="Mailing_address">Mailing address</h2>
     ```
-  
+
   - URLの後ろにハッシュ記号(`#`)と`id`属性を記載する。
 
     ```html
@@ -123,7 +123,7 @@
 
 ページを閲覧している人の状況やツールの選択に関わらず、すべての人にとってリンクを _アクセス可能_ にする必要がある。
 
-- スクリーン リーダーの利用者は、ページ内のリンクからリンクへジャンプしたり、ページの内容とは別にリンクを読むことを好む。  
+- スクリーン リーダーの利用者は、ページ内のリンクからリンクへジャンプしたり、ページの内容とは別にリンクを読むことを好む。
   → ページ内リンクを整備する。
 - 検索エンジンは、対象ファイルにインデックスを付けるために、リンクのテキストを使う。そのため、何がリンクされているかを効果的に説明するために、リンクのテキストにキーワードを含めるのは良い考え。
 - 視覚的なページ閲覧者は、すべての言葉を読むよりもむしろ、ページをサッと見る（スキミングする）。そして、リンクのようにページ内の目立つ箇所に目を向けやすい。説明がしっかりしているリンクのテキストは役に立つだと感じられる。
@@ -165,4 +165,14 @@
 <p><a href="https://www.example.com/car-game">
   Play the car game (requires Flash)
 </a></p>
+```
+
+#### Use the download attribute when linking to a download / ダウンロード対象をリンクする時に「download」属性を使う
+
+例
+
+```html
+<a
+  href="">
+</a>
 ```
