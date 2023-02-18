@@ -27,3 +27,4 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[What's in the head? Metadata in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML) | 2022/01/11 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[HTML text fundamentals](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals#emphasis_and_importance) | 2022/01/20 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Creating hyperlinks](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks) | 2023/02/17 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Advanced text formatting](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting) | 2023/02/18 |

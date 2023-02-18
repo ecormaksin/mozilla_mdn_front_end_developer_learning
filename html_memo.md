@@ -61,3 +61,46 @@
       ```
 
       </div></details></br>
+
+## [定義リスト（Description list）](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting#description_lists)
+
+- `<dl><dt>定義対象の用語(description term)</dt><dd>定義の説明(description definition)</dd><!-- 定義の個数分のdt, ddの組。dtに対してddは複数記述できる。 --></dl>`
+
+## [引用符（Quotations）](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting#quotations)
+
+- ブロック クォーテーション（block quotation）
+  - `<blockquote cite="{引用元のURL}">{引用内容}</blockqote>`
+
+- インライン クォーテーション（inline quotation）
+  - `<q cite="{引用元のURL}">{引用内容}</q>`
+
+- 各タグの`cite`属性は意味的な機能しかないので、実際の引用元はタイトルなどを`<a href="{引用元のURL}"><cite>{引用元のサイト名など}</cite></a>`でマークアップする。
+
+## [略語（Abbreviations）](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting#abbreviations)
+
+- `<abbr title="{正式な名称・呼称など}">{対象の略語}</abbr>`
+  - アクセシビリティのために、ページ内の最初に記述する箇所で、平文で正式な用語も併記する。
+
+- `<acronym></acronym>`は廃止されたので使わない。
+
+## [連絡先の詳細のマーク アップ（Marking up contact details）](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting#marking_up_contact_details)
+
+- `<address>{連絡先の詳細（<p>~</p>, <ul>~</ul>などの構造を埋め込める）}</address>`
+- ページの作成者やページの所有者（企業のホームページの場合の企業）などの問い合わせ先をマークアップするために使うもので、ページ内に記述するあらゆる連絡先をマークアップするために使うものではない。
+
+## [上付き文字と下付き文字（Superscript and subscript）](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting#superscript_and_subscript)
+
+- `<sup></sup>`
+- `<sub></sub>`
+
+## [コンピューター コードの表現（Representing computer code）](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting#representing_computer_code)
+
+- `<code></code>`: 汎用的なコンピューター コードの断片
+- `<pre></pre>`: 空白文字がそのままレンダリングされる
+- `<var></var>`: 変数名
+- `<kbd></kbd>`: キーボード入力
+- `<samp></samp>`: コンピューター プログラムの出力
+
+## [日時のマークアップ（Marking up times and dates）](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting#marking_up_times_and_dates)
+
+- `<time datetime="{コンピューターが認識可能な形式での日時}">{人間が読む形式での日時（テキスト情報のみ）}</time>`
