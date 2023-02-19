@@ -104,3 +104,26 @@
 ## [日時のマークアップ（Marking up times and dates）](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting#marking_up_times_and_dates)
 
 - `<time datetime="{コンピューターが認識可能な形式での日時}">{人間が読む形式での日時（テキスト情報のみ）}</time>`
+
+## [内容を構成するためのHTML（HTML for structuring content）](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure#html_for_structuring_content)
+
+- ヘッダー: `<header></header>`
+- ナビゲーション バー: `<nav></nav>`
+- 主要な内容: `<main></main>`
+  - ページ内で1つだけ。`<body></body>`の直下に記述する。
+  - この中に、`<article></article>`, `<section></section>`, `<div></div>`を複数組み合わせて構成する。
+    - `<article>`: ページ内の他の内容がなくても、それだけで意味を成す内容のかたまりを囲む。
+    - `<section>`: `<article>`と似ているけれども、1つの機能を構成する複数の部品をグループ化する。（記事のヘッドラインや要約など）
+- サイドバー: `<aside></aside>`
+  - `<main></main>`内にしばしば記述される
+  - ページの内容に間接的に関係する情報を提供するために使う。（用語集、ページ作成者の経歴、関連リンクなど）
+- フッター: `<footer></footer>`
+
+## [意味論的ではないタグ（Non-semantic wrappers）](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure#non-semantic_wrappers)
+
+内容をグループ化する時に、意味的に適切なタグがない時や、意味を持たせたくない時は、`<div></div>`(ブロック要素)／`<span></span>`(インライン要素)を使う。`class`属性で識別可能なクラス名を記述することが推奨される。
+
+## [改行と水平の罫線（Line breaks and horizontal rules）](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure#line_breaks_and_horizontal_rules)
+
+- `<br />`
+- `<hr />`
