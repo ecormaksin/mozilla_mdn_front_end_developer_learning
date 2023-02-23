@@ -127,3 +127,7 @@
 
 - `<br />`
 - `<hr />`
+
+## [HTMLの検証（HTML validation）](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML#html_validation)
+
+[Markup Validation Service](https://validator.w3.org/) を使う。

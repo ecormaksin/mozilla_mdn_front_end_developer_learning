@@ -29,3 +29,5 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[Creating hyperlinks](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks) | 2023/02/17 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Advanced text formatting](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting) | 2023/02/18 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Document and website structure](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure) | 2023/02/19 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Debugging HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML) | 2023/02/23 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Marking up a letter](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Marking_up_a_letter) | 2023/02/23 |
