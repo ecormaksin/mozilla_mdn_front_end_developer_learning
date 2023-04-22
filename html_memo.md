@@ -131,3 +131,56 @@
 ## [HTMLの検証（HTML validation）](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML#html_validation)
 
 [Markup Validation Service](https://validator.w3.org/) を使う。
+
+## [画像](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML#how_do_we_put_an_image_on_a_webpage)
+
+- `<img>`タグを使う。
+  - void element（終了タグがない、子要素を持たない）
+  - 属性
+    - `src`: 画像ファイルのパス(絶対パス／相対パス)
+    - `alt`  代替の文字。
+      - 画像が表示されない状況だったり、ネットワーク回線が遅く画像の読み込みが遅いときに使われる。
+      - 検索エンジンでも使われる。
+      - 背景画像やWebページに十分な説明がある場合は「`alt=""`」で設定する。
+    - 画像のサイズに関する属性も指定した方が良い。
+      - 実際の画像サイズと違う数値を指定すると画像が歪んだりするので、画像ファイルのサイズを適切に指定する。画像のサイズを本当に変更する必要がある場合は、CSSを使う方が良い。
+      - `width`
+      - `height`
+
+- 検索エンジンは画像ファイル名を取得して、SEOに含める。そのため、画像ファイル名は説明的なものにした方がよい。
+
+- `src`属性に絶対パスでURLを指定することもできるが推奨されない。HTMLのソースコードと同じサイトに画像ファイルも配置するか、CDNを使う方が良い。
+
+- **他サイトに掲載されている画像のURLを許可なく、自分のWebページへ埋め込んではいけない。**そのような行為は"hotlinking"(直リンク)と呼ばれる。全般的に非倫理的とみなされる。また、自分のページへ誰かがアクセスした時に、リンク先の画像へアクセスするための帯域コストを誰かが払っていることになる。また、リンク先の画像が削除されたり別の画像に置き換わったりする可能性があり、自分では制御できない。
+  - 掲載する画像は、以下のいずれかである必要がある。
+    - 自分が所有している。
+    - 画像の所有者から明文化された許可を得ている。
+    - 公有の画像であることを証明できる。
+
+- `<img>`や`<video>`タグは、**replaced element**と呼ばれることがある。この理由は、要素の中身が外部のリソース(画像や映像)によって規定されるから。
+
+- 画像のタイトル情報を付与するには、`<figure>` `<figcaption>` を使う。これらのタグは、複数の画像を1つのまとまりとしてタイトルを付与したい場合や、コード スニペット、音声、映像、数式、表などにも使える。
+  - 例
+
+    ```html
+    <figure>
+        <img />
+        <figcaption>
+          画像のタイトル
+        </figcaption>
+    </figure>
+    ```
+
+### [CSSを使った背景画像](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML#css_background_images)
+
+- 例: すべての段落に背景画像を表示する場合
+
+  ```css
+  p {
+    background-image: url("images/dinosaur.jpg");
+  }
+  ```
+
+- HTML画像とCSS画像の使い分け
+  - Webページの内容に関係がある場合: HTML画像
+  - ただの装飾の場合: CSS画像

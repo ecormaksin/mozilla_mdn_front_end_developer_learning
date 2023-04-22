@@ -32,3 +32,6 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[Debugging HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML) | 2023/02/23 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Marking up a letter](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Marking_up_a_letter) | 2023/02/23 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Structuring a page of content](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Structuring_a_page_of_content#starting_point) | 2023/04/22 |
+| [Multimedia and embedding](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding#guides) |  |
+| Guides |  |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Images in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML) | 2023/04/22 |
