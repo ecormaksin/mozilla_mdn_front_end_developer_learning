@@ -31,3 +31,4 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[Document and website structure](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure) | 2023/02/19 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Debugging HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML) | 2023/02/23 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Marking up a letter](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Marking_up_a_letter) | 2023/02/23 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Structuring a page of content](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Structuring_a_page_of_content#starting_point) | 2023/04/22 |
