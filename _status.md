@@ -35,3 +35,4 @@
 | [Multimedia and embedding](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding#guides) |  |
 | Guides |  |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Images in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML) | 2023/04/22 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Video and audio content](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content) | 2024/01/01 |
