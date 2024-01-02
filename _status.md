@@ -36,3 +36,4 @@
 | Guides |  |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Images in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML) | 2023/04/22 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Video and audio content](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content) | 2024/01/01 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[From object to iframe — other embedding technologies](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies#the_embed_and_object_elements) | 2024/01/02 |
