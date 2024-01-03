@@ -25,15 +25,16 @@
 | Guides |  |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Getting started with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started) | 2022/01/08 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[What's in the head? Metadata in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML) | 2022/01/11 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[HTML text fundamentals](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals#emphasis_and_importance) | 2022/01/20 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[HTML text fundamentals](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals) | 2022/01/20 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Creating hyperlinks](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks) | 2023/02/17 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Advanced text formatting](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting) | 2023/02/18 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Document and website structure](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure) | 2023/02/19 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Debugging HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML) | 2023/02/23 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Marking up a letter](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Marking_up_a_letter) | 2023/02/23 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Structuring a page of content](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Structuring_a_page_of_content#starting_point) | 2023/04/22 |
-| [Multimedia and embedding](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding#guides) |  |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Structuring a page of content](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Structuring_a_page_of_content) | 2023/04/22 |
+| [Multimedia and embedding](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding) |  |
 | Guides |  |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Images in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML) | 2023/04/22 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Video and audio content](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content) | 2024/01/01 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[From object to iframe — other embedding technologies](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies#the_embed_and_object_elements) | 2024/01/02 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[From object to iframe — other embedding technologies](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies) | 2024/01/02 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Adding vector graphics to the web](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web) | 2024/01/03 |
