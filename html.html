@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja-JP">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>HTML メモ まとめ</title>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>HTML メモ まとめ</h1>
+
+    <hr />
+
+    <h2><a href="#anatomy_of_an_html_document">HTMLドキュメントの基本構造</a></h2>
+
+    <div>
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#anatomy_of_an_html_document">リンク先</a>
+    </div>
+    <div>
+      <pre><code>hoge<a>link</a></code></pre>
+      <pre>
+        <code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="ja"&gt;
+  &lt;head&gt;
+    &lt;meta charset="utf-8" /&gt;
+    &lt;meta name="viewport" content="width=device-width" /&gt;
+    &lt;title&gt;{ページのタイトル}&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    {ページの内容}
+  &lt;/body&gt;
+&lt;/html&gt;
+        </code>
+      </pre>
+      <div>
+        <p><a href="https://developer.mozilla.org/ja/docs/Web/HTML/Global_attributes/lang">lang に関するリンク</a></p>
+      </div>
+    </div>
+
+    <hr />
+
+    <h2><a href="#images">画像</a></h2>
+
+    <div>
+      <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#images">リンク先</a>
+    </div>
+    <div>
+      <pre>
+        <code>
+          &lt;img src="{画像のパス}" alt="{代替テキスト}" /&gt;
+        </code>
+      </pre>
+    </div>
+
+    <hr />
+
+    <h2><a href="#headings">見出し・ヘッダー</a></h2>
+
+    <div>
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#headings">リンク先</a>
+    </div>
+    <p>
+      6段階まで対応しているが、よく使うのは3から4段階まで。
+    </p>
+
+    <hr />
+
+    <h2><a href="#paragraphs">段落</a></h2>
+
+    <div>
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#paragraphs">リンク先</a>
+    </div>
+    <div>
+      <pre>
+        <code>
+          &lt;p&gt;{文章}&lt;/p&gt;
+        </code>
+      </pre>
+    </div>
+
+    <hr />
+
+    <h2><a href="#lists">リスト</a></h2>
+
+    <div>
+      <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#lists">リンク先</a>
+    </div>
+    <div>
+      <p>順序なしリスト</p>
+      <pre>
+        <code>
+          &lt;ul&gt;
+            &lt;li&gt;項目1&lt;/li&gt;
+            &lt;li&gt;項目2&lt;/li&gt;
+            &lt;li&gt;項目3&lt;/li&gt;
+          &lt;/ul&gt;
+        </code>
+      </pre>
+    </div>
+    <div>
+      <p>順序ありリスト</p>
+      <pre>
+        <code>
+          &lt;ol&gt;
+            &lt;li&gt;項目1&lt;/li&gt;
+            &lt;li&gt;項目2&lt;/li&gt;
+            &lt;li&gt;項目3&lt;/li&gt;
+          &lt;/ol&gt;
+        </code>
+      </pre>
+    </div>
+
+    <hr />
+
+    <h2><a href="#links">リンク</a></h2>
+
+    <div>
+      <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#links">リンク先</a>
+    </div>
+    <div>
+      <pre>
+        <code>
+          &lt;a href="{リンク先のパス}"&gt;{リンク文字列}&lt;/a&gt;
+        </code>
+      </pre>
+    </div>
+
+    <hr />
+
+    <h2><a href="#entity_references">特殊文字のエスケープ</a></h2>
+
+    <div>
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#entity_references_including_special_characters_in_html">リンク先</a>
+    </div>
+    <div>
+      <p>実体参照（entity reference）と呼ばれている。下表以外にもあるので、詳細はリンク先のさらにWikipediaのリンク先を参照。</p>
+      <table>
+        <caption>
+          エスケープ対象の一例
+        </caption>
+        <thead>
+          <tr>
+            <th>そのままの文字</th>
+            <th>エスケープした等価の実体参照</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>&lt;</td>
+            <td><code>&lt;</code></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </main>
+</body>
+
+</html>
