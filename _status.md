@@ -42,3 +42,4 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[Mozilla splash page](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Mozilla_splash_page) | 2024/01/04 |
 | [HTML tables](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables) |  |
 | Guides |  |
+| &nbsp;&nbsp;&nbsp;&nbsp;[HTML table basics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics#providing_common_styling_to_columns) | 2024/01/04 |
