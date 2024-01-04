@@ -40,3 +40,5 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[Adding vector graphics to the web](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web) | 2024/01/03 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) | 2024/01/04 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Mozilla splash page](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Mozilla_splash_page) | 2024/01/04 |
+| [HTML tables](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables) |  |
+| Guides |  |
