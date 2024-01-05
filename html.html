@@ -27,7 +27,6 @@
         href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#anatomy_of_an_html_document">リンク先</a>
     </div>
     <div>
-      <pre><code>hoge<a>link</a></code></pre>
       <pre>
         <code>
 &lt;!DOCTYPE html&gt;
@@ -56,11 +55,7 @@
       <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#images">リンク先</a>
     </div>
     <div>
-      <pre>
-        <code>
-          &lt;img src="{画像のパス}" alt="{代替テキスト}" /&gt;
-        </code>
-      </pre>
+      <pre><code>&lt;img src="{画像のパス}" alt="{代替テキスト}" /&gt;</code></pre>
     </div>
 
     <hr />
@@ -84,11 +79,7 @@
         href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#paragraphs">リンク先</a>
     </div>
     <div>
-      <pre>
-        <code>
-          &lt;p&gt;{文章}&lt;/p&gt;
-        </code>
-      </pre>
+      <pre><code>&lt;p&gt;{文章}&lt;/p&gt;</code></pre>
     </div>
 
     <hr />
@@ -101,26 +92,20 @@
     <div>
       <p>順序なしリスト</p>
       <pre>
-        <code>
-          &lt;ul&gt;
-            &lt;li&gt;項目1&lt;/li&gt;
-            &lt;li&gt;項目2&lt;/li&gt;
-            &lt;li&gt;項目3&lt;/li&gt;
-          &lt;/ul&gt;
-        </code>
+        <code>&lt;ul&gt;
+  &lt;li&gt;項目1&lt;/li&gt;
+  &lt;li&gt;項目2&lt;/li&gt;
+  &lt;li&gt;項目3&lt;/li&gt;
+&lt;/ul&gt;</code>
       </pre>
     </div>
     <div>
       <p>順序ありリスト</p>
-      <pre>
-        <code>
-          &lt;ol&gt;
-            &lt;li&gt;項目1&lt;/li&gt;
-            &lt;li&gt;項目2&lt;/li&gt;
-            &lt;li&gt;項目3&lt;/li&gt;
-          &lt;/ol&gt;
-        </code>
-      </pre>
+      <pre><code>&lt;ol&gt;
+  &lt;li&gt;項目1&lt;/li&gt;
+  &lt;li&gt;項目2&lt;/li&gt;
+  &lt;li&gt;項目3&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
     </div>
 
     <hr />
@@ -132,9 +117,7 @@
     </div>
     <div>
       <pre>
-        <code>
-          &lt;a href="{リンク先のパス}"&gt;{リンク文字列}&lt;/a&gt;
-        </code>
+        <code>&lt;a href="{リンク先のパス}"&gt;{リンク文字列}&lt;/a&gt;</code>
       </pre>
     </div>
 
@@ -161,9 +144,25 @@
         <tbody>
           <tr>
             <td>&lt;</td>
-            <td><code>&lt;</code></td>
-          </tr>
-        </tbody>
+            <td>&amp;lt;</td>
+            </tr>
+            <tr>
+              <td>&gt;</td>
+              <td>&amp;gt;</td>
+            </tr>
+            <tr>
+              <td>&quot;</td>
+              <td>&amp;quot;</td>
+            </tr>
+            <tr>
+              <td>&apos;</td>
+              <td>&amp;apos;</td>
+            </tr>
+            <tr>
+              <td>&amp;</td>
+              <td>&amp;amp;</td>
+            </tr>
+            </tbody>
       </table>
     </div>
 
