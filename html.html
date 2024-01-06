@@ -15,12 +15,26 @@
 </head>
 
 <body>
+  <nav>
+    <ul>
+      <li><a href="#anatomy_of_an_html_document">HTMLドキュメントの基本構造</a></li>
+      <li><a href="#images">画像</a></li>
+      <li><a href="#headings">見出し・ヘッダー</a></li>
+      <li><a href="#paragraphs">段落</a></li>
+      <li><a href="#lists">リスト</a></li>
+      <li><a href="#links">リンク</a></li>
+      <li><a href="#entity_references">特殊文字のエスケープ</a></li>
+      <li><a href="#adding_an_author_and_description">メタデータ・ページ作成者と説明の追加</a></li>
+      <li><a href="#other_types_of_metadata">他の種類のメタデータ</a></li>
+      <li><a href="#adding_custom_icons_to_your_site">カスタムアイコンの追加</a></li>
+    </ul>
+  </nav>
   <main>
     <h1>HTML メモ まとめ</h1>
 
     <hr />
 
-    <h2><a href="#anatomy_of_an_html_document">HTMLドキュメントの基本構造</a></h2>
+    <h2 id="anatomy_of_an_html_document"><a href="#anatomy_of_an_html_document">HTMLドキュメントの基本構造</a></h2>
 
     <div>
       <a
@@ -28,8 +42,7 @@
     </div>
     <div>
       <pre>
-        <code>
-&lt;!DOCTYPE html&gt;
+        <code>&lt;!DOCTYPE html&gt;
 &lt;html lang="ja"&gt;
   &lt;head&gt;
     &lt;meta charset="utf-8" /&gt;
@@ -39,8 +52,7 @@
   &lt;body&gt;
     {ページの内容}
   &lt;/body&gt;
-&lt;/html&gt;
-        </code>
+&lt;/html&gt;</code>
       </pre>
       <div>
         <p><a href="https://developer.mozilla.org/ja/docs/Web/HTML/Global_attributes/lang">lang に関するリンク</a></p>
@@ -49,7 +61,7 @@
 
     <hr />
 
-    <h2><a href="#images">画像</a></h2>
+    <h2 id="images"><a href="#images">画像</a></h2>
 
     <div>
       <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#images">リンク先</a>
@@ -60,7 +72,7 @@
 
     <hr />
 
-    <h2><a href="#headings">見出し・ヘッダー</a></h2>
+    <h2 id="headings"><a href="#headings">見出し・ヘッダー</a></h2>
 
     <div>
       <a
@@ -72,7 +84,7 @@
 
     <hr />
 
-    <h2><a href="#paragraphs">段落</a></h2>
+    <h2 id="paragraphs"><a href="#paragraphs">段落</a></h2>
 
     <div>
       <a
@@ -84,7 +96,7 @@
 
     <hr />
 
-    <h2><a href="#lists">リスト</a></h2>
+    <h2 id="lists"><a href="#lists">リスト</a></h2>
 
     <div>
       <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#lists">リンク先</a>
@@ -110,7 +122,7 @@
 
     <hr />
 
-    <h2><a href="#links">リンク</a></h2>
+    <h2 id="links"><a href="#links">リンク</a></h2>
 
     <div>
       <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#links">リンク先</a>
@@ -123,7 +135,7 @@
 
     <hr />
 
-    <h2><a href="#entity_references">特殊文字のエスケープ</a></h2>
+    <h2 id="entity_references"><a href="#entity_references">特殊文字のエスケープ</a></h2>
 
     <div>
       <a
@@ -164,6 +176,59 @@
             </tr>
             </tbody>
       </table>
+    </div>
+
+    <hr />
+
+    <h2 id="adding_an_author_and_description"><a href="#adding_an_author_and_description">メタデータ・ページ作成者と説明の追加</a></h2>
+
+    <div>
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#adding_an_author_and_description">リンク先</a>
+    </div>
+    <div>
+      <pre><code>&lt;!-- 前略 --&gt;
+&lt;head&gt;
+  &lt;meta name=&quot;author&quot; content=&quot;{ページ作成者名}&quot; /&gt;
+  &lt;meta name=&quot;description&quot; content=&quot;{ページの説明文}&quot; /&gt;
+&lt;/head&gt;
+&lt;!-- 後略 --&gt;</code></pre>
+    </div>
+
+    <hr />
+
+    <h2 id="other_types_of_metadata"><a href="#other_types_of_metadata">他の種類のメタデータ</a></h2>
+
+    <div>
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#other_types_of_metadata">リンク先</a>
+    </div>
+
+    <p><a href="https://ogp.me/">Open Graph Data</a>: Meta(Facebook)が開発</p>
+
+    <div>
+      <pre><code>&lt;meta
+  property=&quot;og:image&quot;
+  content=&quot;https://developer.mozilla.org/mdn-social-share.png&quot; /&gt;
+&lt;meta
+  property=&quot;og:description&quot;
+  content=&quot;The Mozilla Developer Network (MDN) provides information about Open Web technologies including HTML, CSS, and APIs for both websites and HTML Apps.&quot; /&gt;
+&lt;meta property=&quot;og:title&quot; content=&quot;Mozilla Developer Network&quot; /&gt;</code></pre>
+    </div>
+
+    <p><a href="https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards">Twitter Cards</a>: X(Twitter)が開発</p>
+
+    <div>
+      <pre><code>&lt;meta name=&quot;twitter:title&quot; content=&quot;Mozilla Developer Network&quot; /&gt;</code></pre>
+    </div>
+
+    <hr />
+
+    <h2 id="adding_custom_icons_to_your_site"><a href="#adding_custom_icons_to_your_site">カスタムアイコンの追加</a></h2>
+
+    <div>
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#adding_custom_icons_to_your_site">リンク先</a>
     </div>
 
   </main>
