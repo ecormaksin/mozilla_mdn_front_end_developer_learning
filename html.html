@@ -27,6 +27,7 @@
       <li><a href="#adding_an_author_and_description">メタデータ・ページ作成者と説明の追加</a></li>
       <li><a href="#other_types_of_metadata">他の種類のメタデータ</a></li>
       <li><a href="#adding_custom_icons_to_your_site">カスタムアイコンの追加</a></li>
+      <li><a href="#applying_css_and_javascript_to_html">CSSとJavaScriptの適用</a></li>
     </ul>
   </nav>
   <main>
@@ -54,9 +55,12 @@
   &lt;/body&gt;
 &lt;/html&gt;</code>
       </pre>
-      <div>
-        <p><a href="https://developer.mozilla.org/ja/docs/Web/HTML/Global_attributes/lang">lang に関するリンク</a></p>
-      </div>
+      <p>
+        <a href="https://developer.mozilla.org/ja/docs/Web/HTML/Global_attributes/lang">lang に関するリンク</a>
+      </p>
+      <p>
+        指定する値は<a href="https://en.wikipedia.org/wiki/ISO_639-1">ISO 639-1</a>で定義されている。指定する値は、<a href="https://www.w3.org/International/articles/language-tags/">W3Cのサイト</a>で確認できる。
+      </p>
     </div>
 
     <hr />
@@ -187,12 +191,8 @@
         href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#adding_an_author_and_description">リンク先</a>
     </div>
     <div>
-      <pre><code>&lt;!-- 前略 --&gt;
-&lt;head&gt;
-  &lt;meta name=&quot;author&quot; content=&quot;{ページ作成者名}&quot; /&gt;
-  &lt;meta name=&quot;description&quot; content=&quot;{ページの説明文}&quot; /&gt;
-&lt;/head&gt;
-&lt;!-- 後略 --&gt;</code></pre>
+      <pre><code>&lt;meta name=&quot;author&quot; content=&quot;{ページ作成者名}&quot; /&gt;
+&lt;meta name=&quot;description&quot; content=&quot;{ページの説明文}&quot; /&gt;</code></pre>
     </div>
 
     <hr />
@@ -229,6 +229,55 @@
     <div>
       <a
         href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#adding_custom_icons_to_your_site">リンク先</a>
+    </div>
+    <div>
+      <p>&quot;rel&quot;&nbsp;がアイコンの種類を表す。</p>
+      <p>favicon: favorites icon&nbsp;ブラウザのお気に入り・ブックマークに表示される。</p>
+      <pre><code>&lt;link rel=&quot;icon&quot; href=&quot;favicon.ico&quot; type=&quot;image/x-icon&quot; /&gt;
+&lt;!-- third-generation iPad with high-resolution Retina display: --&gt;
+&lt;link
+  rel=&quot;apple-touch-icon&quot;
+  sizes=&quot;144x144&quot;
+  href=&quot;https://developer.mozilla.org/static/img/favicon144.png&quot; /&gt;
+&lt;!-- iPhone with high-resolution Retina display: --&gt;
+&lt;link
+  rel=&quot;apple-touch-icon&quot;
+  sizes=&quot;114x114&quot;
+  href=&quot;https://developer.mozilla.org/static/img/favicon114.png&quot; /&gt;
+&lt;!-- first- and second-generation iPad: --&gt;
+&lt;link
+  rel=&quot;apple-touch-icon&quot;
+  sizes=&quot;72x72&quot;
+  href=&quot;https://developer.mozilla.org/static/img/favicon72.png&quot; /&gt;
+&lt;!-- non-Retina iPhone, iPod Touch, and Android 2.1+ devices: --&gt;
+&lt;link
+  rel=&quot;apple-touch-icon&quot;
+  href=&quot;https://developer.mozilla.org/static/img/favicon57.png&quot; /&gt;
+&lt;!-- basic favicon --&gt;
+&lt;link
+  rel=&quot;icon&quot;
+  href=&quot;https://developer.mozilla.org/static/img/favicon32.png&quot; /&gt;
+</code></pre>
+    </div>
+
+    <hr />
+
+    <h2 id="applying_css_and_javascript_to_html"><a href="#applying_css_and_javascript_to_html">CSSとJavaScriptの適用</a></h2>
+
+    <div>
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#applying_css_and_javascript_to_html">リンク先</a>
+    </div>
+
+    <p>CSS</p>
+    <div>
+      <pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;{CSSファイルのパス}&quot; /&gt;</code></pre>
+    </div>
+
+    <p>JavaScript</p>
+    <div>
+      <pre><code>&lt;script src=&quot;{JavaScriptファイルのパス}&quot; defer&gt;&lt;/script&gt;</code></pre>
+      <p>&quot;defer&quot;&nbsp;はHTMLのパースが終わった後でJavaScriptをロードする指定。HTMLのパースが終わる前にJavaScriptがロードされ、存在しない要素に対して処理が行われるとエラーになってしまうので、それを防ぐために指定する。</p>
     </div>
 
   </main>
