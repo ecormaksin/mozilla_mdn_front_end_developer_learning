@@ -17,7 +17,7 @@
 
 ### Semantics and structure with HTML
 
-#### Modules
+#### Modules (HTML)
 
 | Title | Done |
 | --- |:---:|
@@ -45,3 +45,13 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[HTML table basics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics#providing_common_styling_to_columns) | 2024/01/04 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[HTML table advanced features and accessibility](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced) | 2024/01/13 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Structuring planet data](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Structuring_planet_data) | 2024/01/13 |
+
+### Styling and layout with CSS
+
+#### Modules (CSS)
+
+| Title | Done |
+| --- |:---:|
+| [CSS first steps](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps) |  |
+| Guides |  |
+| &nbsp;&nbsp;&nbsp;&nbsp;[What is CSS?](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS) | 2024/01/13 |
