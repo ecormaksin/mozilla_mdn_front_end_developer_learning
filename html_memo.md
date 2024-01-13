@@ -64,7 +64,7 @@
 
 ## [定義リスト（Description list）](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting#description_lists)
 
-- `<dl><dt>定義対象の用語(description term)</dt><dd>定義の説明(description definition)</dd><!-- 定義の個数分のdt, ddの組。dtに対してddは複数記述できる。 --></dl>`
+- `<dl><dt>定義対象の用語(description term)</dt><dd>定義の説明(description definition)</dd><!-- 定義の個数分のdt, ddの組。dtに対してddは複数記述できる。 --></dl>`/
 
 ## [引用符（Quotations）](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting#quotations)
 
@@ -151,7 +151,7 @@
 
 - `src`属性に絶対パスでURLを指定することもできるが推奨されない。HTMLのソースコードと同じサイトに画像ファイルも配置するか、CDNを使う方が良い。
 
-- **他サイトに掲載されている画像のURLを許可なく、自分のWebページへ埋め込んではいけない。**そのような行為は"hotlinking"(直リンク)と呼ばれる。全般的に非倫理的とみなされる。また、自分のページへ誰かがアクセスした時に、リンク先の画像へアクセスするための帯域コストを誰かが払っていることになる。また、リンク先の画像が削除されたり別の画像に置き換わったりする可能性があり、自分では制御できない。
+- **他サイトに掲載されている画像のURLを許可なく、自分のWebページへ埋め込んではいけない。** そのような行為は"hotlinking"(直リンク)と呼ばれる。全般的に非倫理的とみなされる。また、自分のページへ誰かがアクセスした時に、リンク先の画像へアクセスするための帯域コストを誰かが払っていることになる。また、リンク先の画像が削除されたり別の画像に置き換わったりする可能性があり、自分では制御できない。
   - 掲載する画像は、以下のいずれかである必要がある。
     - 自分が所有している。
     - 画像の所有者から明文化された許可を得ている。

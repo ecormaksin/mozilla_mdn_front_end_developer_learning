@@ -43,3 +43,4 @@
 | [HTML tables](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables) |  |
 | Guides |  |
 | &nbsp;&nbsp;&nbsp;&nbsp;[HTML table basics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics#providing_common_styling_to_columns) | 2024/01/04 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[HTML table advanced features and accessibility](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced) | 2024/01/13 |

@@ -30,6 +30,8 @@
       <li><a href="#applying_css_and_javascript_to_html">CSSとJavaScriptの適用</a></li>
       <li><a href="#emphasis_and_importance">強調と重要度</a></li>
       <li><a href="#description_lists">定義リスト</a></li>
+      <li><a href="#quotations">引用</a></li>
+      <li><a href="#abbreviations">略語</a></li>
     </ul>
   </nav>
   <main>
@@ -328,6 +330,94 @@
   &lt;dd&gt;{用語1: ・・・}&lt;/dd&gt;
   &lt;dd&gt;{用語1: 定義N}&lt;/dd&gt;
 &lt;/dl&gt;</code></pre>
+    </div>
+
+    <hr />
+
+    <h2 id="quotations"><a href="#quotations">引用</a></h2>
+
+    <div>
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting#quotations">リンク先</a>
+    </div>
+
+    <h3>ブロッククォート</h3>
+
+    <div>
+      <pre><code>&lt;p&gt;Here is a blockquote:&lt;/p&gt;
+&lt;blockquote
+  cite=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote&quot;&gt;
+  &lt;p&gt;
+    The &lt;strong&gt;HTML &lt;code&gt;&lt;blockquote&gt;&lt;/code&gt; Element&lt;/strong&gt; (or
+    &lt;em&gt;HTML Block Quotation Element&lt;/em&gt;) indicates that the enclosed text is
+    an extended quotation.
+  &lt;/p&gt;
+&lt;/blockquote&gt;
+</code></pre>
+    </div>
+
+    <h3>インラインクォート</h3>
+
+    <div>
+      <pre><code>&lt;p&gt;
+  The quote element — &lt;code&gt;&lt;q&gt;&lt;/code&gt; — is
+  &lt;q cite=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q&quot;&gt;
+    intended for short quotations that don't require paragraph breaks.
+  &lt;/q&gt;
+&lt;/p&gt;
+</code></pre>
+    </div>
+
+    <h3>出典</h3>
+
+    <p>
+      &lt;cite&gt;&nbsp;タグは出典元のタイトルをマークアップする場合などに使う。このタグ自体はそれ以外の機能を持っていないので、&lt;a&gt;&nbsp;タグで囲むことで出典元へリンクできる。
+    </p>
+
+    <div>
+      <pre><code>&lt;p&gt;
+  According to the
+  &lt;a href=&quot;/en-US/docs/Web/HTML/Element/blockquote&quot;&gt;
+    &lt;cite&gt;MDN blockquote page&lt;/cite&gt;&lt;/a&gt;:
+&lt;/p&gt;
+
+&lt;blockquote
+  cite=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote&quot;&gt;
+  &lt;p&gt;
+    The &lt;strong&gt;HTML &lt;code&gt;&lt;blockquote&gt;&lt;/code&gt; Element&lt;/strong&gt; (or
+    &lt;em&gt;HTML Block Quotation Element&lt;/em&gt;) indicates that the enclosed text is
+    an extended quotation.
+  &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;
+  The quote element — &lt;code&gt;&lt;q&gt;&lt;/code&gt; — is
+  &lt;q cite=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q&quot;&gt;
+    intended for short quotations that don't require paragraph breaks.
+  &lt;/q&gt;
+  — &lt;a href=&quot;/en-US/docs/Web/HTML/Element/q&quot;&gt;&lt;cite&gt;MDN q page&lt;/cite&gt;&lt;/a&gt;.
+&lt;/p&gt;
+</code></pre>
+    </div>
+
+    <h2 id="abbreviations"><a href="#abbreviations">略語</a></h2>
+
+    <div>
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting#abbreviations">リンク先</a>
+    </div>
+
+    <div>
+      <pre><code>&lt;p&gt;
+  We use &lt;abbr&gt;HTML&lt;/abbr&gt;, Hypertext Markup Language, to structure our web
+  documents.
+&lt;/p&gt;
+
+&lt;p&gt;
+  I think &lt;abbr title=&quot;Reverend&quot;&gt;Rev.&lt;/abbr&gt; Green did it in the kitchen with
+  the chainsaw.
+&lt;/p&gt;
+</code></pre>
     </div>
 
   </main>
