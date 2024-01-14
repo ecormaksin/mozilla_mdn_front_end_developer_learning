@@ -55,3 +55,4 @@
 | [CSS first steps](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps) |  |
 | Guides |  |
 | &nbsp;&nbsp;&nbsp;&nbsp;[What is CSS?](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS) | 2024/01/13 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Getting started with CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started) | 2024/01/14 |
