@@ -1,7 +1,7 @@
 # CSS に関するメモ
 
 - Webブラウザーは「 [ユーザー エージェント(user agent)](https://developer.mozilla.org/en-US/docs/Glossary/User_agent) 」と呼ばれることがある。（ [リンク](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS#what_is_css_for) ）
-  - コンピューター システム内で、1人の人間の代理になるプログラムを意味する。別の文脈でコンピューター システムを扱う場合では、Webブラウザー以外のプログラムがユーザー エージェントになりうる。
+  - コンピューター システム内で、1人の人間の代理になるプログラムを意味する。別の文脈でコンピューター システムを扱う場合では、Webブラウザー以外のプログラムがユーザー エージェントになりうる。<br /><br />
 
 - CSS セレクター
   - 要素の絞り込み、**descendant(子孫) combinator**（[リンク](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started#styling_things_based_on_their_location_in_a_document)）
@@ -22,4 +22,8 @@
     }
     ```
 
-    `<h1>` タグの **次** の `<p>` タグの要素が対象。
+    `<h1>` タグの **次** の `<p>` タグの要素が対象。<br /><br />
+
+- 同じHTML要素に複数のスタイルが指定されていた場合、後ろに記述しているスタイルが適用される。
+  CSSクラスとHTML要素が同じ対象を指し示している時、CSSクラスが適用される。
+  （ [リンク](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured#specificity) ）
