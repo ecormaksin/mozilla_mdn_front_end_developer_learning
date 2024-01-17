@@ -27,3 +27,25 @@
 - 同じHTML要素に複数のスタイルが指定されていた場合、後ろに記述しているスタイルが適用される。
   CSSクラスとHTML要素が同じ対象を指し示している時、CSSクラスが適用される。
   （ [リンク](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured#specificity) ）
+
+- property + value = declaration
+  declarations を包含 → declaration blocks
+  declaration blocks + selector = CSS rulesets or CSS rules
+  （[リンク](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured#properties_and_values)）
+
+- 関数による値の指定（[リンク](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured#functions)）
+  - 例
+    - `calc()`: `width` に対する指定など
+    - `rotate()`: `transform` に対する指定など
+
+- `@rules`（発音: "at-rules"）
+  - 例
+    - `@import`: 他のCSSファイルをインポートする
+    - `@media`: ユーザー エージェントによる条件付き適用
+
+- 短縮形の値指定（shorthand properties）
+  - 1つのプロパティで複数の値を指定する。
+    - 4個の値（`padding`など）: 上、右、下、左（時計回り）
+    - 2個の値: 上下、左右
+  - 注意
+    - 短縮形の記述方法で値を省略すると、初期値に戻ってしまう。
