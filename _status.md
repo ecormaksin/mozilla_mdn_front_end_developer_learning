@@ -57,3 +57,4 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[What is CSS?](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS) | 2024/01/13 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Getting started with CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started) | 2024/01/14 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[How CSS is structured](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured) | 2024/01/17 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[How CSS works](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works) | 2024/01/19 |
