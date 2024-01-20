@@ -61,5 +61,4 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[Styling a biography page](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Styling_a_biography_page) | 2024/01/20 |
 | [CSS building blocks](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks) |  |
 | Guides |  |
-| [CSS selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors) |  |
-| Guides |  |
+| [CSS selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors) | 2024/01/20 |
