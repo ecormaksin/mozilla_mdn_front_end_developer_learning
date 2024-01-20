@@ -59,3 +59,7 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[How CSS is structured](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured) | 2024/01/17 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[How CSS works](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works) | 2024/01/19 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Styling a biography page](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Styling_a_biography_page) | 2024/01/20 |
+| [CSS building blocks](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks) |  |
+| Guides |  |
+| [CSS selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors) |  |
+| Guides |  |

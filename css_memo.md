@@ -66,3 +66,21 @@
           width: calc(100% - 50px);
         }
         ```
+
+- セレクター
+  - 属性によるセレクター（attribute selectors）（[リンク](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors#attribute_selectors)）
+    - 指定された属性のある要素が対象
+
+      ```css
+      a[title] {
+      }
+      ```
+
+    - 指定された属性と値のある要素が対象
+
+      ```css
+      a[href="https://example.com"]{
+      }
+      ```
+
+  - [セレクター全集](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)
