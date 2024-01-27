@@ -68,7 +68,7 @@
         ```
 
 - セレクター
-  - 属性によるセレクター（attribute selectors）（[リンク](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors#attribute_selectors)）
+  - 属性セレクター（attribute selectors）（[リンク](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors#attribute_selectors)）
     - 指定された属性のある要素が対象
 
       ```css
@@ -84,3 +84,32 @@
       ```
 
   - [セレクター全集](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)
+
+  - セレクターの種類（[リンク](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors)）
+    - 型セレクター（type selector）、タグ名セレクター、要素セレクター
+    - ユニバーサル セレクター（universal selector）
+      - `*` で表記する。
+      - 複数のコンビネーターと組み合わせて、適用対象を絞り込める。
+        - 以下の記述は同じ機能だけれども、後者の方が意図が明確になる。
+
+          ```css
+          article :first-child { /* */ }
+
+          article *:first-child { /* */ }
+          ```
+
+    - クラス セレクター（class selector）
+      - `.` 始まりの大文字・小文字の区別ありの名前をつける。
+      - `span.highlight` のように、特定のタグとクラス名を持つ要素に絞り込める。
+      - 複数のクラスを持つ要素にも絞り込める。
+        - 例
+          - css: `.notebox.warning { /* */ }`
+          - html: `<div class="notebox warning"><!-- --></div>`
+
+    - IDセレクター（id selector）
+      - `#` 始まりの大文字・小文字の区別ありの名前をつける。
+      - 名前はhtmlドキュメント内要素の `id` プロパティに一致するものが適用対象。（cssファイルでは `#` 始まりだけれども、htmlファイルでは `#` がつかない。）
+
+    - 要素指定の指針
+      - IDセレクターよりも、クラス セレクターで指定した方がよい。（IDは1ページに1つしか定義できない値のため。）
+      - IDでしか要素を指定できない状況の場合（htmlファイルの編集権限がない等）、 `p[id="header"]` のような属性セレクターを検討する。
