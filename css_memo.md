@@ -68,24 +68,18 @@
         ```
 
 - セレクター
-  - 属性セレクター（attribute selectors）（[リンク](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors#attribute_selectors)）
-    - 指定された属性のある要素が対象
+  - 属性セレクター（attribute selectors）（[リンク1](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors#attribute_selectors)、[リンク2](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Attribute_selectors#presence_and_value_selectors)）
 
-      ```css
-      a[title] {
-      }
-      ```
-
-    - 指定された属性と値のある要素が対象
-
-      ```css
-      a[href="https://example.com"]{
-      }
-      ```
+    | セレクター | 例 | 説明 |
+    | --- | --- | --- |
+    | `[attr]` | `a[title]` | `attr` に指定した属性を持つ |
+    | `[attr=value]` | `a[href="https://example.com"]` | ・`attr` に指定した属性を持つ  </br>・`value` が完全に一致する |
+    | `[attr~=value]` | `p[class~="special"]` | ・`attr` に指定した属性を持つ </br>・`value` が完全に一致している </br>&nbsp;&nbsp;&nbsp;&nbsp;または </br>&nbsp;&nbsp;&nbsp;&nbsp;スペースで区切られた値のどれかに当てはまる |
+    | `[attr\|=value]` | `div[lang\|="zh"]` | ・`attr` に指定した属性を持つ </br>・`value` が完全に一致している </br>&nbsp;&nbsp;&nbsp;&nbsp;または </br>&nbsp;&nbsp;&nbsp;&nbsp;指定した値の後にハイフンが続いている |
 
   - [セレクター全集](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)
 
-  - セレクターの種類（[リンク](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors)）
+  - 型セレクター、クラス セレクター、IDセレクター（[リンク](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors)）
     - 型セレクター（type selector）、タグ名セレクター、要素セレクター
     - ユニバーサル セレクター（universal selector）
       - `*` で表記する。
@@ -113,3 +107,14 @@
     - 要素指定の指針
       - IDセレクターよりも、クラス セレクターで指定した方がよい。（IDは1ページに1つしか定義できない値のため。）
       - IDでしか要素を指定できない状況の場合（htmlファイルの編集権限がない等）、 `p[id="header"]` のような属性セレクターを検討する。
+
+  - 部分文字列のセレクター（substring matching selectors）（[リンク](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Attribute_selectors#substring_matching_selectors)）
+
+    | セレクター | 例 | 説明 |
+    | --- | --- | --- |
+    | `[attr^=value]` | `li[class^="box-"]` | ・`attr` に指定した属性を持つ </br>・`value` で始まる値|
+    | `[attr$=value]` | `li[class$="-box"]` | ・`attr` に指定した属性を持つ </br>・`value` で終わる値|
+    | `[attr*=value]` | `li[class*="box"]` | ・`attr` に指定した属性を持つ </br>・`value` をどこかに含む値 |
+
+  - 大文字・小文字の区別（case-sensitivity）（[リンク](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Attribute_selectors#case-sensitivity)）
+    - 大文字・小文字の区別なしで要素を指定したい場合、`li[class^="a" i] { /* */ }` のように、角括弧を閉じる前に `i` を指定する。
