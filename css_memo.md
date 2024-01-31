@@ -121,3 +121,20 @@
           width: calc(100% - 50px);
         }
         ```
+
+- CSSルールの優先順位（[リンク](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance#conflicting_rules)）
+  - クラス セレクター > 要素セレクター
+  - 同じ優先順位の場合は、スタイルシートの最後に記述されているルール。（`cascase` と呼ばれている理由）</br></br>
+
+- CSSスタイルの継承（[リンク](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance#inheritance)）
+  - 子要素に継承されるスタイルもあれば、そうでないものもある。
+  - [MDNのCSSプロパティ リファレンス ページ](https://developer.mozilla.org/en-US/docs/Web/CSS)の「 `Formal definition` 」に、継承されるかどうかが記載されている。（例: [color](https://developer.mozilla.org/en-US/docs/Web/CSS/color#formal_definition) プロパティ）</br></br>
+
+- 継承の制御（[リンク](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance#controlling_inheritance)）
+  - `inherit`
+    - 親要素からのスタイルを明示的に継承する。
+  - `initial`
+    - [MDNのCSSプロパティ リファレンス ページ](https://developer.mozilla.org/en-US/docs/Web/CSS)の「 `initial value` 」に定義されている内容。継承されているかどうかで適用されるルールが異なる。（[リンク](https://developer.mozilla.org/en-US/docs/Web/CSS/initial_value)）
+    - ※ブラウザーのデフォルト スタイルではない。
+  - `revert`
+    - ブラウザーのデフォルト スタイルを適用する。
