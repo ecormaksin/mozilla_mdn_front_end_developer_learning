@@ -122,7 +122,13 @@
         }
         ```
 
-- CSSルールの優先順位（[リンク](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade#complete_cascade_order)）</br></br>
+- CSSルールの優先順位（[リンク](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade#complete_cascade_order)）
+  - アルゴリズム（判定順序）
+    1. 関連度（Relevance）: 要素に該当するセレクターや `@media` で規定されたユーザー エージェント
+    2. 定義されている場所と重要度（Origin and importance）
+    3. 特異度（specificity）
+    4. 適用範囲の近接度（Scoping proximity）: [詳細リンク](https://developer.mozilla.org/en-US/docs/Web/CSS/@scope#how_scope_conflicts_are_resolved)
+    5. 定義順（Order of appearance）</br></br>
 
 - CSSスタイルの継承（[リンク](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance#inheritance)）
   - 子要素に継承されるスタイルもあれば、そうでないものもある。
