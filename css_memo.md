@@ -122,9 +122,7 @@
         }
         ```
 
-- CSSルールの優先順位（[リンク](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance#conflicting_rules)）
-  - クラス セレクター > 要素セレクター
-  - 同じ優先順位の場合は、スタイルシートの最後に記述されているルール。（`cascase` と呼ばれている理由）</br></br>
+- CSSルールの優先順位（[リンク](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade#complete_cascade_order)）</br></br>
 
 - CSSスタイルの継承（[リンク](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance#inheritance)）
   - 子要素に継承されるスタイルもあれば、そうでないものもある。
@@ -138,3 +136,8 @@
     - ※ブラウザーのデフォルト スタイルではない。
   - `revert`
     - ブラウザーのデフォルト スタイルを適用する。
+    - 多くの場合、`unset` と同じように作用する。
+  - `revert-layer`
+    - 一つ前の 「 [カスケード レイヤー（cascade layer）](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer) 」で定義された値が適用される。
+  - `unset`
+    - `inherit` で継承された値が適用される。そうでない場合は `initial` のように作用する。
