@@ -124,11 +124,13 @@
 
 - CSSルールの優先順位（[リンク](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade#complete_cascade_order)）
   - アルゴリズム（判定順序）
-    1. 関連度（Relevance）: 要素に該当するセレクターや `@media` で規定されたユーザー エージェント
-    2. 定義されている場所と重要度（Origin and importance）
-    3. 特異度（specificity）
-    4. 適用範囲の近接度（Scoping proximity）: [詳細リンク](https://developer.mozilla.org/en-US/docs/Web/CSS/@scope#how_scope_conflicts_are_resolved)
-    5. 定義順（Order of appearance）</br></br>
+    - ①関連度（Relevance）: 要素に該当するセレクターや `@media` で規定されたユーザー エージェント
+    - ②定義されている場所と重要度（Origin and importance）
+    - ③特異度（specificity）
+    - ④適用範囲の近接度（Scoping proximity）: [詳細リンク](https://developer.mozilla.org/en-US/docs/Web/CSS/@scope#how_scope_conflicts_are_resolved)
+    - ⑤定義順（Order of appearance）</br></br>
+
+  - 属性と値の組み合わせによる定義(property/value pair declarations)だけが、段階的適用に関与する。識別子(descriptors)を含んだ `@font-face` ルールのような、定義以外の要素を持つ `at-rules` は、段階的適用には関与しない。そのような `at-rules` に関しては、定義のように部分的・段階的に適用されるのではなく、最適なルール1つ全体が適用される。複数の適合候補が存在する場合は、上記の①②④の判定順序が使われる。（`at-rules` には③の特異度が存在しないため。）</br></br>
 
 - CSSスタイルの継承（[リンク](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance#inheritance)）
   - 子要素に継承されるスタイルもあれば、そうでないものもある。
