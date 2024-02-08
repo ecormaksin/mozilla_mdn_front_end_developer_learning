@@ -132,6 +132,9 @@
 
   - 属性と値の組み合わせによる定義(property/value pair declarations)だけが、段階的適用に関与する。識別子(descriptors)を含んだ `@font-face` ルールのような、定義以外の要素を持つ `at-rules` は、段階的適用には関与しない。そのような `at-rules` に関しては、定義のように部分的・段階的に適用されるのではなく、最適なルール1つ全体が適用される。複数の適合候補が存在する場合は、上記の①②④の判定順序が使われる。（`at-rules` には③の特異度が存在しないため。）</br></br>
 
+  - CSSのアニメーションと段階的適用（[リンク](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade#css_animations_and_the_cascade)）
+    - CSSアニメーションは、`@keyframes` ルールを使って状態間の動きを定義する。同じ名前で 複数の `@keyframes` ルールが定義されている場合、定義場所とレイヤーの優先順位に基づいて最後のものが適用される。属性と値の組み合わせによる定義のように段階的には適用されない。
+
 - CSSスタイルの継承（[リンク](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance#inheritance)）
   - 子要素に継承されるスタイルもあれば、そうでないものもある。
   - [MDNのCSSプロパティ リファレンス ページ](https://developer.mozilla.org/en-US/docs/Web/CSS)の「 `Formal definition` 」に、継承されるかどうかが記載されている。（例: [color](https://developer.mozilla.org/en-US/docs/Web/CSS/color#formal_definition) プロパティ）</br></br>
