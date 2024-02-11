@@ -126,11 +126,11 @@
   - アルゴリズム（判定順序）
     - ①関連度（Relevance）: 要素に該当するセレクターや `@media` で規定されたユーザー エージェント
     - ②定義されている場所と重要度（Origin and importance）
-    - ③特異度（specificity）
+    - ③詳細度（specificity）
     - ④適用範囲の近接度（Scoping proximity）: [詳細リンク](https://developer.mozilla.org/en-US/docs/Web/CSS/@scope#how_scope_conflicts_are_resolved)
     - ⑤定義順（Order of appearance）</br></br>
 
-  - 属性と値の組み合わせによる定義(property/value pair declarations)だけが、段階的適用に関与する。識別子(descriptors)を含んだ `@font-face` ルールのような、定義以外の要素を持つ `at-rules` は、段階的適用には関与しない。そのような `at-rules` に関しては、定義のように部分的・段階的に適用されるのではなく、最適なルール1つ全体が適用される。複数の適合候補が存在する場合は、上記の①②④の判定順序が使われる。（`at-rules` には③の特異度が存在しないため。）</br></br>
+  - 属性と値の組み合わせによる定義(property/value pair declarations)だけが、段階的適用に関与する。識別子(descriptors)を含んだ `@font-face` ルールのような、定義以外の要素を持つ `at-rules` は、段階的適用には関与しない。そのような `at-rules` に関しては、定義のように部分的・段階的に適用されるのではなく、最適なルール1つ全体が適用される。複数の適合候補が存在する場合は、上記の①②④の判定順序が使われる。（`at-rules` には③の詳細度が存在しないため。）</br></br>
 
   - CSSのアニメーションと段階的適用（[リンク](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade#css_animations_and_the_cascade)）
     - CSSアニメーションは、`@keyframes` ルールを使って状態間の動きを定義する。同じ名前で 複数の `@keyframes` ルールが定義されている場合、定義場所とレイヤーの優先順位に基づいて最後のものが適用される。属性と値の組み合わせによる定義のように段階的には適用されない。
@@ -152,3 +152,27 @@
     - 一つ前の 「 [カスケード レイヤー（cascade layer）](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer) 」で定義された値が適用される。
   - `unset`
     - `inherit` で継承された値が適用される。そうでない場合は `initial` のように作用する。
+
+- セレクターの詳細度（[リンク](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance#specificity_2)）
+  - ID, クラス, 要素（タグ）を3桁の数値で表すことで測定できる。
+
+    | ID | クラス | 要素 |
+    | --- | --- | --- |
+    | 百の位 | 十の位 | 一の位 |
+
+    - 補足
+      - クラス: 属性セレクターと疑似クラスも含める。
+      - 要素: 疑似要素も含める。
+      - universal セレクター（`*`）、combinators（`+`, `>`, `~`, `''`）と詳細度調整セレクター(specificity adjustment selector)は、詳細度に影響を与えない。
+
+  - 否定(`negation`)（`:not()`）、関連(`relational`)（`:has()`）、`matches-any`（`:is()`）とCSSの入れ子(CSS nesting)自体は詳細度には影響せず、それらに対する引数や内包されたルールが影響する。引数に指定されたセレクターの中で詳細度が最も高いもの、内包されたルールの中で詳細度が最も高いものが適用される。
+
+  - 例
+
+    || ID | クラス | 要素 | 個人の理解メモ |
+    | --- | --- | --- | --- |--- |
+    | `h1` | 0 | 0 | 1 | 要素セレクター1個だけ |
+    | `h1 + p::first-letter` | 0 | 0 | 3 | 要素セレクター2個 ＋ 疑似要素1個 |
+    | `li > a[href*="en-US"] > .inline-warning` | 0 | 2 | 2 | クラス セレクター2個 ＋ 要素セレクター2個 |
+    | `#identifier` | 1 | 0 | 0 | IDセレクター1個 |
+    | `button:not(#mainBtn, .cta)` | 1 | 0 | 1 | `:not()` 自体は測定に含めない。パラメーター内で最も詳細度の高いものが採用されるので、IDセレクター1個 ＋ 要素セレクター1個 |
