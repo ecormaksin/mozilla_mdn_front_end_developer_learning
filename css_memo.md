@@ -176,3 +176,8 @@
     | `li > a[href*="en-US"] > .inline-warning` | 0 | 2 | 2 | クラス セレクター2個 ＋ 要素セレクター2個 |
     | `#identifier` | 1 | 0 | 0 | IDセレクター1個 |
     | `button:not(#mainBtn, .cta)` | 1 | 0 | 1 | `:not()` 自体は測定に含めない。パラメーター内で最も詳細度の高いものが採用されるので、IDセレクター1個 ＋ 要素セレクター1個 |
+
+- CSSのレイヤー（cascade layer）
+  - リンク
+    - [リンク1](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_layers#the_layer_block_at-rule_for_named_and_anonymous_layers)
+  - `@layer` で名前付きの規則のブロックを定義する時、既に同じ名前が存在する場合は規則が追加される。
