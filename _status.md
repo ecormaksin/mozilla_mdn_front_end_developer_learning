@@ -61,23 +61,25 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[Styling a biography page](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Styling_a_biography_page) | 2024/01/20 |
 | [CSS building blocks](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks) |  |
 | Guides |  |
-| [CSS selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors) | 2024/01/20 |
-| [Type, class, and ID selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors) | 2024/01/27 |
-| [Attribute selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Attribute_selectors) | 2024/01/27 |
-| [Pseudo-classes and pseudo-elements](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements) | 2024/01/28 |
-| [Combinators](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators) | 2024/01/28 |
-| [Cascade, specificity, and inheritance](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance) | 2024/02/14 |
-| [Cascade layers](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_layers) | 2024/02/18 |
-| [The box model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model) | 2024/02/20 |
-| [Backgrounds and borders](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Backgrounds_and_borders) | 2024/02/23 |
-| [Handling different text directions](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Handling_different_text_directions) | 2024/02/23 |
-| [Overflowing content](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Overflowing_content) | 2024/02/24 |
-| [CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) | 2024/02/25 |
-| [Sizing items in CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Sizing_items_in_CSS) | 2024/02/25 |
-| [Images, media, and form elements](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Images_media_form_elements) | 2024/02/26 |
-| [Styling tables](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Styling_tables) | 2024/04/13 |
-| [Debugging CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Debugging_CSS) | 2024/04/13 |
-| [Organizing your CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing) | 2024/04/14 |
-| [Fundamental CSS comprehension](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Fundamental_CSS_comprehension) | 2024/04/19 |
-| [Creating fancy letterheaded paper](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Creating_fancy_letterheaded_paper) | 2024/04/27 |
-| [A cool-looking box](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/A_cool_looking_box) | 2024/04/27 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[CSS selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors) | 2024/01/20 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Type, class, and ID selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors) | 2024/01/27 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Attribute selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Attribute_selectors) | 2024/01/27 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Pseudo-classes and pseudo-elements](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements) | 2024/01/28 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Combinators](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators) | 2024/01/28 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Cascade, specificity, and inheritance](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance) | 2024/02/14 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Cascade layers](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_layers) | 2024/02/18 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[The box model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model) | 2024/02/20 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Backgrounds and borders](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Backgrounds_and_borders) | 2024/02/23 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Handling different text directions](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Handling_different_text_directions) | 2024/02/23 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Overflowing content](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Overflowing_content) | 2024/02/24 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) | 2024/02/25 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Sizing items in CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Sizing_items_in_CSS) | 2024/02/25 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Images, media, and form elements](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Images_media_form_elements) | 2024/02/26 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Styling tables](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Styling_tables) | 2024/04/13 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Debugging CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Debugging_CSS) | 2024/04/13 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Organizing your CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing) | 2024/04/14 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Fundamental CSS comprehension](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Fundamental_CSS_comprehension) | 2024/04/19 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Creating fancy letterheaded paper](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Creating_fancy_letterheaded_paper) | 2024/04/27 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[A cool-looking box](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/A_cool_looking_box) | 2024/04/27 |
+| [CSS styling text](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text) |  |
+| Guides |  |
