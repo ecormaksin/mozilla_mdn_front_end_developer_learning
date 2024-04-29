@@ -83,3 +83,4 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[A cool-looking box](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/A_cool_looking_box) | 2024/04/27 |
 | [CSS styling text](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text) |  |
 | Guides |  |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Fundamental text and font styling](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals) | 2024/04/29 |
