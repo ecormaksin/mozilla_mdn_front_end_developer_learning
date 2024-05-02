@@ -85,3 +85,4 @@
 | Guides |  |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Fundamental text and font styling](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals) | 2024/04/29 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Styling lists](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists) | 2024/04/29 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Styling links](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links) | 2024/05/02 |
