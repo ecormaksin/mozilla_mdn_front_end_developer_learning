@@ -87,3 +87,4 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[Styling lists](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists) | 2024/04/29 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Styling links](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links) | 2024/05/02 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Web fonts](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts) | 2024/05/06 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Typesetting a community school homepage](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Typesetting_a_homepage) | 2024/05/06 |
