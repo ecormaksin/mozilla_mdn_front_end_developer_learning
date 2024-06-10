@@ -99,3 +99,4 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[Multiple-column layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Multiple-column_Layout) | 2024/05/26 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Responsive design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design) | 2024/05/26 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Beginner's guide to media queries](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries) | 2024/06/09 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Legacy layout methods](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Legacy_Layout_Methods) | 2024/06/11 |
