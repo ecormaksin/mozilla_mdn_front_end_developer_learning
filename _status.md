@@ -101,3 +101,4 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[Beginner's guide to media queries](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries) | 2024/06/09 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Legacy layout methods](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Legacy_Layout_Methods) | 2024/06/11 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Supporting older browsers](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Supporting_Older_Browsers) | 2024/06/11 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Fundamental layout comprehension](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Fundamental_Layout_Comprehension) | 2024/06/16 |
