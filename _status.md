@@ -104,3 +104,4 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[Fundamental layout comprehension](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Fundamental_Layout_Comprehension) | 2024/06/16 |
 | [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript) |  |
 | Guides |  |
+| &nbsp;&nbsp;&nbsp;&nbsp;[What is JavaScript?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript) | 2024/06/18 |
