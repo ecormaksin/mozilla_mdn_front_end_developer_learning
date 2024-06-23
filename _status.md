@@ -105,3 +105,4 @@
 | Guides                                                                                                                                                                        |            |
 | &nbsp;&nbsp;&nbsp;&nbsp;[What is JavaScript?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)                                       | 2024/06/18 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[A first splash into JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash)                                | 2024/06/22 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[What went wrong? Troubleshooting JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong)                  | 2024/06/23 |
