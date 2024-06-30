@@ -109,3 +109,4 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[Storing the information you need — Variables](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables)                       | 2024/06/30 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Basic math in JavaScript — numbers and operators](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math)                        | 2024/06/30 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Handling text — strings in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings)                                | 2024/06/30 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Useful string methods](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods)                                  | 2024/06/30 |
