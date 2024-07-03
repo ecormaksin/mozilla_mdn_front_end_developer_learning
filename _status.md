@@ -111,3 +111,4 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[Handling text — strings in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings)                                | 2024/06/30 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Useful string methods](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods)                                  | 2024/06/30 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Arrays](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays)                                                                | 2024/07/02 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Silly story generator](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Silly_story_generator)                                  | 2024/07/04 |
