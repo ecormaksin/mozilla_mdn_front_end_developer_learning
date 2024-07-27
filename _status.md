@@ -114,3 +114,6 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[Silly story generator](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Silly_story_generator)                                  | 2024/07/04 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Making decisions in your code — conditionals](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals)                | 2024/07/14 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Looping code](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code)                                                | 2024/07/15 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Functions — reusable blocks of code](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions)                            | 2024/07/27 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Build your own function](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Build_your_own_function)                          | 2024/07/27 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Function return values](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values)                                     | 2024/07/27 |
