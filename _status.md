@@ -122,3 +122,4 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[Image gallery](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Image_gallery)                                              | 2024/08/03 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[JavaScript object basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)                                                  | 2024/08/04 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Object prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)                                              | 2024/08/05 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Object-oriented programming](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming)                          | 2024/08/07 |
