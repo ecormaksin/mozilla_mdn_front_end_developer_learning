@@ -123,3 +123,4 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[JavaScript object basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)                                                  | 2024/08/04 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Object prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)                                              | 2024/08/05 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Object-oriented programming](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming)                          | 2024/08/07 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Classes in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes_in_JavaScript)                                      | 2024/08/09 |
