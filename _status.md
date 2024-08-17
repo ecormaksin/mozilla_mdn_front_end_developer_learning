@@ -126,3 +126,4 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[Classes in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes_in_JavaScript)                                      | 2024/08/09 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Working with JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)                                                           | 2024/08/09 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Object building practice](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_building_practice)                                | 2024/08/15 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Adding features to our bouncing balls demo](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Adding_bouncing_balls_features)        | 2024/08/17 |
