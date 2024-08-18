@@ -102,28 +102,54 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[Supporting older browsers](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Supporting_Older_Browsers)                                  | 2024/06/11 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Fundamental layout comprehension](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Fundamental_Layout_Comprehension)                    | 2024/06/16 |
 | [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)                                                                                                       |            |
-| Guides                                                                                                                                                                        |            |
-| &nbsp;&nbsp;&nbsp;&nbsp;[What is JavaScript?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)                                       | 2024/06/18 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[A first splash into JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash)                                | 2024/06/22 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[What went wrong? Troubleshooting JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong)                  | 2024/06/23 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Storing the information you need — Variables](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables)                       | 2024/06/30 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Basic math in JavaScript — numbers and operators](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math)                        | 2024/06/30 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Handling text — strings in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings)                                | 2024/06/30 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Useful string methods](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods)                                  | 2024/06/30 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Arrays](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays)                                                                | 2024/07/02 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Silly story generator](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Silly_story_generator)                                  | 2024/07/04 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Making decisions in your code — conditionals](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals)                | 2024/07/14 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Looping code](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code)                                                | 2024/07/15 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Functions — reusable blocks of code](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions)                            | 2024/07/27 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Build your own function](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Build_your_own_function)                          | 2024/07/27 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Function return values](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values)                                     | 2024/07/27 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Introduction to events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)                                            | 2024/07/28 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Event bubbling](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Event_bubbling)                                            | 2024/08/03 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Image gallery](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Image_gallery)                                              | 2024/08/03 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[JavaScript object basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)                                                  | 2024/08/04 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Object prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)                                              | 2024/08/05 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Object-oriented programming](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming)                          | 2024/08/07 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Classes in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes_in_JavaScript)                                      | 2024/08/09 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Working with JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)                                                           | 2024/08/09 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Object building practice](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_building_practice)                                | 2024/08/15 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Adding features to our bouncing balls demo](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Adding_bouncing_balls_features)        | 2024/08/17 |
+
+### JavaScript — Dynamic client-side scripting
+
+#### JavaScript first steps
+
+| Title                                                                                                                                                        |    Done    |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------ | :--------: |
+| Guides                                                                                                                                                       |            |
+| &nbsp;&nbsp;&nbsp;&nbsp;[What is JavaScript?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)                      | 2024/06/18 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[A first splash into JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash)               | 2024/06/22 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[What went wrong? Troubleshooting JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong) | 2024/06/23 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Storing the information you need — Variables](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables)      | 2024/06/30 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Basic math in JavaScript — numbers and operators](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math)       | 2024/06/30 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Handling text — strings in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings)               | 2024/06/30 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Useful string methods](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods)                 | 2024/06/30 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Arrays](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays)                                               | 2024/07/02 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Silly story generator](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Silly_story_generator)                 | 2024/07/04 |
+
+#### JavaScript building blocks
+
+| Title                                                                                                                                                          |    Done    |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: |
+| Guides                                                                                                                                                         |            |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Making decisions in your code — conditionals](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) | 2024/07/14 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Looping code](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code)                                 | 2024/07/15 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Functions — reusable blocks of code](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions)             | 2024/07/27 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Build your own function](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Build_your_own_function)           | 2024/07/27 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Function return values](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values)                      | 2024/07/27 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Introduction to events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)                             | 2024/07/28 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Event bubbling](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Event_bubbling)                             | 2024/08/03 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Image gallery](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Image_gallery)                               | 2024/08/03 |
+
+#### Introducing JavaScript objects
+
+| Title                                                                                                                                                                  |    Done    |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: |
+| Guides                                                                                                                                                                 |            |
+| &nbsp;&nbsp;&nbsp;&nbsp;[JavaScript object basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)                                           | 2024/08/04 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Object prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)                                       | 2024/08/05 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Object-oriented programming](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming)                   | 2024/08/07 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Classes in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes_in_JavaScript)                               | 2024/08/09 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Working with JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)                                                    | 2024/08/09 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Object building practice](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_building_practice)                         | 2024/08/15 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Adding features to our bouncing balls demo](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Adding_bouncing_balls_features) | 2024/08/17 |
+
+#### [Asynchronous JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous)
+
+| Title                                                                                                                                             |    Done    |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: |
+| Guides                                                                                                                                            |            |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Introducing asynchronous JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing) | 2024/08/18 |
