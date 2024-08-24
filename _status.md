@@ -153,3 +153,4 @@
 | ------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: |
 | Guides                                                                                                                                            |            |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Introducing asynchronous JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing) | 2024/08/18 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[How to use promises](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises)                    | 2024/08/24 |
