@@ -149,8 +149,9 @@
 
 #### [Asynchronous JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous)
 
-| Title                                                                                                                                             |    Done    |
-| ------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: |
-| Guides                                                                                                                                            |            |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Introducing asynchronous JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing) | 2024/08/18 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[How to use promises](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises)                    | 2024/08/24 |
+| Title                                                                                                                                                                   |    Done    |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: |
+| Guides                                                                                                                                                                  |            |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Introducing asynchronous JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing)                       | 2024/08/18 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[How to use promises](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises)                                          | 2024/08/24 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[How to implement a promise-based API](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Implementing_a_promise-based_API) | 2024/08/25 |
