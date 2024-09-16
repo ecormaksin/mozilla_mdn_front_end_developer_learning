@@ -166,3 +166,4 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[Introduction to web APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction#they_have_additional_security_mechanisms_where_appropriate) | 2024/09/10 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Manipulating documents](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents#active_learning_a_dynamic_shopping_list)            | 2024/09/15 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Third-party APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Third_party_APIs)                                                                | 2024/09/15 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Drawing graphics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Drawing_graphics)                                                                | 2024/09/16 |
