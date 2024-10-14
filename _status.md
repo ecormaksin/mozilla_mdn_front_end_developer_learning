@@ -168,6 +168,7 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[Third-party APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Third_party_APIs)                                                                | 2024/09/15 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Drawing graphics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Drawing_graphics)                                                                | 2024/09/16 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Video and Audio APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Video_and_audio_APIs)                                                        | 2024/09/18 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Client-side storage](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage)                                                          | 2024/10/08 |
 
 #### [Web forms — Working with user data](https://developer.mozilla.org/en-US/docs/Learn/Forms)
 
