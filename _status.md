@@ -176,3 +176,4 @@
 | ---------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: |
 | Guides                                                                                                                                               |            |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Your first form](https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form#sending_form_data_to_your_web_server) | 2024/10/14 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[How to structure a web form](https://developer.mozilla.org/en-US/docs/Learn/Forms/How_to_structure_a_web_form)              | 2024/10/16 |
