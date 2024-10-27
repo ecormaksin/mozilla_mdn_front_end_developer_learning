@@ -179,3 +179,4 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[How to structure a web form](https://developer.mozilla.org/en-US/docs/Learn/Forms/How_to_structure_a_web_form)              | 2024/10/16 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Basic native form controls](https://developer.mozilla.org/en-US/docs/Learn/Forms/Basic_native_form_controls)                | 2024/10/20 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[The HTML5 input types](https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_types)                              | 2024/10/23 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Other form controls](https://developer.mozilla.org/en-US/docs/Learn/Forms/Other_form_controls)                              | 2024/10/27 |
