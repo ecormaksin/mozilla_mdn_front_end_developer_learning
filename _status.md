@@ -181,3 +181,4 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[The HTML5 input types](https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_types)                              | 2024/10/23 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Other form controls](https://developer.mozilla.org/en-US/docs/Learn/Forms/Other_form_controls)                              | 2024/10/27 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Styling web forms](https://developer.mozilla.org/en-US/docs/Learn/Forms/Styling_web_forms)                                  | 2024/11/04 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Advanced form styling](https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling)                          | 2024/11/14 |
