@@ -182,3 +182,4 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;[Other form controls](https://developer.mozilla.org/en-US/docs/Learn/Forms/Other_form_controls)                              | 2024/10/27 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Styling web forms](https://developer.mozilla.org/en-US/docs/Learn/Forms/Styling_web_forms)                                  | 2024/11/04 |
 | &nbsp;&nbsp;&nbsp;&nbsp;[Advanced form styling](https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling)                          | 2024/11/14 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[UI pseudo-classes](https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes)                                  | 2024/11/30 |
