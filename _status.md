@@ -172,14 +172,15 @@
 
 #### [Web forms — Working with user data](https://developer.mozilla.org/en-US/docs/Learn/Forms)
 
-| Title                                                                                                                                                |    Done    |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: |
-| Guides                                                                                                                                               |            |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Your first form](https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form#sending_form_data_to_your_web_server) | 2024/10/14 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[How to structure a web form](https://developer.mozilla.org/en-US/docs/Learn/Forms/How_to_structure_a_web_form)              | 2024/10/16 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Basic native form controls](https://developer.mozilla.org/en-US/docs/Learn/Forms/Basic_native_form_controls)                | 2024/10/20 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[The HTML5 input types](https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_types)                              | 2024/10/23 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Other form controls](https://developer.mozilla.org/en-US/docs/Learn/Forms/Other_form_controls)                              | 2024/10/27 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Styling web forms](https://developer.mozilla.org/en-US/docs/Learn/Forms/Styling_web_forms)                                  | 2024/11/04 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[Advanced form styling](https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling)                          | 2024/11/14 |
-| &nbsp;&nbsp;&nbsp;&nbsp;[UI pseudo-classes](https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes)                                  | 2024/11/30 |
+| Title                                                                                                                                                  |    Done    |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ | :--------: |
+| Guides                                                                                                                                                 |            |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Your first form](https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form#sending_form_data_to_your_web_server)   | 2024/10/14 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[How to structure a web form](https://developer.mozilla.org/en-US/docs/Learn/Forms/How_to_structure_a_web_form)                | 2024/10/16 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Basic native form controls](https://developer.mozilla.org/en-US/docs/Learn/Forms/Basic_native_form_controls)                  | 2024/10/20 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[The HTML5 input types](https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_types)                                | 2024/10/23 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Other form controls](https://developer.mozilla.org/en-US/docs/Learn/Forms/Other_form_controls)                                | 2024/10/27 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Styling web forms](https://developer.mozilla.org/en-US/docs/Learn/Forms/Styling_web_forms)                                    | 2024/11/04 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Advanced form styling](https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling)                            | 2024/11/14 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[UI pseudo-classes](https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes)                                    | 2024/11/30 |
+| &nbsp;&nbsp;&nbsp;&nbsp;[Client-side form validation](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation) | 2025/01/04 |
